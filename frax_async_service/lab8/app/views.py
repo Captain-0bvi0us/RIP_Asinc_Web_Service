@@ -6,7 +6,7 @@ import requests
 import json
 from concurrent import futures
 
-GO_SERVICE_URL = "http://127.0.0.1:8090/api/internal/frax/result"
+GO_SERVICE_URL = "http://localhost:8090/api/internal/frax/updating"
 AUTH_TOKEN = "secret12" # Псевдо-токен
 
 executor = futures.ThreadPoolExecutor(max_workers=1)
